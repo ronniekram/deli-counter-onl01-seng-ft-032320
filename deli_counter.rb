@@ -23,6 +23,6 @@ def now_serving(array)
   elsif array.length >= 1 
     remove = []
     remove << array.shift
-    puts "Currently serving #{remove}."
+    puts "Currently serving #{remove.join}."
   end
 end 
